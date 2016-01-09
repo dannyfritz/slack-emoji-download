@@ -1,10 +1,10 @@
 {
   "name": "slack-emoji-download",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Given an emoji.json file from Slack's [emoji.list](https://api.slack.com/methods/emoji.list) API method\r this module will download all of the emoji images and name of after their names.",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/dannyfritz/slack-emoji-download.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfritz/slack-emoji-download.git"
   },
   "preferGlobal": true,
   "bin": "cli.js",
