@@ -3,6 +3,12 @@
 Given an emoji.json file from Slack's [emoji.list](https://api.slack.com/methods/emoji.list) API method
 this module will download all of the emoji images and name of after their names.
 
+## Install
+
+```sh
+$ npm install slack-emoji-download -g
+```
+
 ## Usage
 
 To take the file `emoji.list` and download all the images to an `images` folder:
