@@ -1,0 +1,17 @@
+{
+  "name": "slack-emoji-download",
+  "version": "1.0.0",
+  "description": "Given an emoji.json file from Slack's [emoji.list](https://api.slack.com/methods/emoji.list) API method\r this module will download all of the emoji images and name of after their names.",
+  "bin": "cli.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Fritz <dannyfritz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "file-extension": "^2.0.1",
+    "request": "^2.67.0",
+    "yargs": "^3.31.0"
+  }
+}
