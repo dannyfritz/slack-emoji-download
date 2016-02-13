@@ -16,4 +16,4 @@ const argv = require('yargs')
 fs.mkdirSync(argv.directory)
 const emojiData = fs.readFileSync('emoji.json', 'utf8')
 const emoji = JSON.parse(emojiData).emoji
-slackEmojiDownload(emoji)
+slackEmojiDownload(emoji, argv.directory)
